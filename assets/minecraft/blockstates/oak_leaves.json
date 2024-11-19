@@ -1,0 +1,12 @@
+{
+  "variants": {
+      "": [
+      { "model": "block/oak_leaves", "weight": 55 },
+      { "model": "block/oak_leaves_bushy", "weight": 45 },
+      { "model": "block/oak_leaves_1", "weight": 55 },
+      { "model": "block/oak_leaves_bushy_1", "weight": 45 },
+      { "model": "block/oak_leaves_2", "weight": 55 },
+      { "model": "block/oak_leaves_bushy_2", "weight": 45 }
+    ]
+  }
+}

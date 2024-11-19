@@ -1,0 +1,29 @@
+{
+  "layers": [
+    {
+      "textures": {
+        "top": "lambdabettergrass:block/grass_block_side_shadow",
+        "side": "minecraft:block/grass_block_side",
+        "overrides": {
+          "connect": "lambdabettergrass:block/grass/grass_block_better_side",
+          "blend_up": "lambdabettergrass:block/grass/grass_block_blend_up",
+          "blend_up_m": "lambdabettergrass:block/grass/grass_block_blend_up_m",
+          "arch": "lambdabettergrass:block/grass/grass_block_side_arch"
+        }
+      }
+    },
+    {
+      "color_index": 0,
+      "textures": {
+        "top": "minecraft:block/grass_block_top",
+        "side": "minecraft:block/grass_block_side_overlay",
+        "overrides": {
+          "connect": "lambdabettergrass:block/grass/grass_block_better_side",
+          "blend_up": "lambdabettergrass:block/grass/grass_block_blend_up_overlay",
+          "blend_up_m": "lambdabettergrass:block/grass/grass_block_blend_up_m_overlay",
+          "arch": "lambdabettergrass:block/grass/grass_block_side_arch_overlay"
+        }
+      }
+    }
+  ]
+}

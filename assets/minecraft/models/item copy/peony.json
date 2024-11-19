@@ -1,0 +1,7 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "block/peony_top",
+		"layer1": "block/peony_top_overlay"
+	}
+}

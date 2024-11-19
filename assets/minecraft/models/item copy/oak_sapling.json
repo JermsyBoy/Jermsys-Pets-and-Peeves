@@ -1,0 +1,7 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "block/oak_sapling",
+		"layer1": "block/oak_sapling_overlay"
+	}
+}

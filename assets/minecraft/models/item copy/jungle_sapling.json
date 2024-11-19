@@ -1,0 +1,7 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "block/jungle_sapling",
+		"layer1": "block/jungle_sapling_overlay"
+	}
+}

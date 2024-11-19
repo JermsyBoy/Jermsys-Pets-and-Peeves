@@ -1,0 +1,7 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "block/red_tulip",
+		"layer1": "block/red_tulip_overlay"
+	}
+}
