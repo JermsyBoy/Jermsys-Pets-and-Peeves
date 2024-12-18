@@ -2,7 +2,7 @@
     "variants": {
         "": [
 				{ "model": "block/crafting_table" },
-				{ "model": "block/crafting_table1" }
+				{ "model": "block/crafting_table_1" }
 			]
     }
 }

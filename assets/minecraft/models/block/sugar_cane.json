@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/tinted_cross_sugar_cane",
+  "textures": {
+    "top": "minecraft:block/sugar_cane",
+    "bottom": "minecraft:block/sugar_cane_bottom"
+  }
+}
