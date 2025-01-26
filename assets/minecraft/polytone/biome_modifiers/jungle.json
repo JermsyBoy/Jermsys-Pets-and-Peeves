@@ -4,7 +4,5 @@
 	"water_color": 1352389,
 	"water_fog_color": 816524,
 	"grass_color": 7974455,
-	"foliage_color": 6660124,
-	"fog_end": "0.65 - max(0, min(0.25, (DAY_TIME%24000 > 23000) + (DAY_TIME%24000 < 1000) + (RAIN * 0.25) - max(0, 11 - SKY_LIGHT)))",
-	"fog_start": "10.5 + max(-0.75, min(0.5, (DAY_TIME%24000 > 23000) + (DAY_TIME%24000 < 1000) + (RAIN * 0.25)- max(0, 11 - SKY_LIGHT)*100))"
+	"foliage_color": 6660124
 }

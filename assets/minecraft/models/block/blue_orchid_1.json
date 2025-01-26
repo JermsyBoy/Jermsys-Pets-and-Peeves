@@ -1,7 +1,6 @@
 {
-    "parent": "minecraft:block/cross_tint",
+    "parent": "minecraft:block/cross",
     "textures": {
-        "cross": "minecraft:block/blue_orchid_1",
-        "cross_tint": "minecraft:block/blue_orchid_overlay_1"
+        "cross": "minecraft:block/blue_orchid_1"
     }
 }

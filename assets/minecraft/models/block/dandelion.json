@@ -1,8 +1,7 @@
 {
-  "parent": "minecraft:block/cross_tint",
+  "parent": "minecraft:block/cross",
   "textures": {
-    "cross": "minecraft:block/dandelion",
-    "cross_tint": "minecraft:block/dandelion_overlay"
+    "cross": "minecraft:block/dandelion"
 
   }
 }

@@ -1,7 +1,6 @@
 {
-    "parent": "minecraft:block/cross_tint",
+    "parent": "minecraft:block/cross",
     "textures": {
-        "cross": "minecraft:block/azure_bluet_1",
-        "cross_tint": "minecraft:block/azure_bluet_overlay_1"
+        "cross": "minecraft:block/azure_bluet_1"
     }
 }
