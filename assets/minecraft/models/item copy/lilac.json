@@ -1,7 +1,0 @@
-{
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "block/lilac_top",
-		"layer1": "block/lilac_top_overlay"
-	}
-}

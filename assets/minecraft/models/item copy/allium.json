@@ -1,7 +1,0 @@
-{
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "block/allium",
-		"layer1": "block/allium_overlay"
-	}
-}

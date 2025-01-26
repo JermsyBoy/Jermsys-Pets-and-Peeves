@@ -1,0 +1,5 @@
+{
+	"targets": ["minecraft:dripstone_caves", "minecraft:lush_caves"],
+	"fog_end": 0.5,
+	"fog_start": 10
+}

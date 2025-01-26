@@ -1,7 +1,0 @@
-{
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "block/oxeye_daisy",
-		"layer1": "block/oxeye_daisy_overlay"
-	}
-}
