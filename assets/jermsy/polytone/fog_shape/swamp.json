@@ -1,5 +1,0 @@
-{
-	"targets": ["minecraft:swamp", "minecraft:mangrove_swamp", "minecraft:pale_garden"],
-	"fog_end": "1 - max(0, min(0.3, (DAY_TIME%24000 > 23000) + (DAY_TIME%24000 < 1000) + (RAIN * 0.3) - max(0, 11 - SKY_LIGHT)))",
-	"fog_start": "11.65 + max(-0.65, min(0.35, (DAY_TIME%24000 > 23000) + (DAY_TIME%24000 < 1000) + (RAIN * 0.35)- max(0, 11 - SKY_LIGHT)*100))"
-}

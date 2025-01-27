@@ -2,8 +2,8 @@
     "ambientocclusion": false,
     "textures": {
         "particle": "block/sunflower_front",
-        "cross": "block/sunflower_top_overlay",
-        "back": "block/sunflower_back_overlay",
+        "cross": "block/sunflower_top",
+        "back": "block/sunflower_back",
         "front": "block/sunflower_front"
     },
     "elements": [
@@ -17,8 +17,8 @@
             },
             "shade": false,
             "faces": {
-                "north": { "uv": [ 0, 8, 16, 16 ], "texture": "#cross", "tintindex": 1 },
-                "south": { "uv": [ 0, 8, 16, 16 ], "texture": "#cross", "tintindex": 1 }
+                "north": { "uv": [ 0, 8, 16, 16 ], "texture": "#cross" },
+                "south": { "uv": [ 0, 8, 16, 16 ], "texture": "#cross" }
             }
         },
         {   "from": [ 8, 0, 0.8 ],
@@ -31,8 +31,8 @@
             },
             "shade": false,
             "faces": {
-                "west": { "uv": [ 0, 8, 16, 16 ], "texture": "#cross", "tintindex": 1 },
-                "east": { "uv": [ 0, 8, 16, 16 ], "texture": "#cross", "tintindex": 1 }
+                "west": { "uv": [ 0, 8, 16, 16 ], "texture": "#cross" },
+                "east": { "uv": [ 0, 8, 16, 16 ], "texture": "#cross" }
             }
         },
         {   "from": [ 9.6, -1, 1 ],
@@ -45,7 +45,7 @@
             },
             "shade": false,
             "faces": {
-                "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#back", "tintindex": 1 },
+                "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#back" },
                 "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#front" }
             }
         }

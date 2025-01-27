@@ -1,7 +1,6 @@
 {
-  "parent": "minecraft:block/cross_tint",
+  "parent": "minecraft:block/cross",
   "textures": {
-    "cross": "minecraft:block/lilac_bottom",
-    "cross_tint": "block/lilac_bottom_overlay"
+    "cross": "minecraft:block/lilac_bottom"
   }
 }

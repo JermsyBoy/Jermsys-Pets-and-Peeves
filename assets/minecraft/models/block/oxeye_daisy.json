@@ -1,7 +1,6 @@
 {
-  "parent": "minecraft:block/cross_tint",
+  "parent": "minecraft:block/cross",
   "textures": {
-    "cross": "minecraft:block/oxeye_daisy",
-    "cross_tint": "minecraft:block/oxeye_daisy_overlay"
+    "cross": "minecraft:block/oxeye_daisy"
   }
 }

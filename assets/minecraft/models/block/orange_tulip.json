@@ -1,7 +1,6 @@
 {
-  "parent": "minecraft:block/cross_tint",
+  "parent": "minecraft:block/cross",
   "textures": {
-    "cross": "minecraft:block/orange_tulip",
-    "cross_tint": "minecraft:block/orange_tulip_overlay"
+    "cross": "minecraft:block/orange_tulip"
   }
 }

@@ -1,5 +1,19 @@
 {
-	"targets": ["minecraft:deep_frozen_ocean", "minecraft:frozen_ocean", "minecraft:frozen_river", "minecraft:ice_spikes", "minecraft:snowy_beach", "minecraft:snowy_plains", "jermsy:gravelly_beach", "jermsy:tundra", "jermsy:wooded_tundra"],
+	"targets": [
+		{
+		 "id": "jermsy:gravelly_beach",
+		 "required": false
+		},
+		{
+		 "id": "jermsy:tundra",
+		 "required": false
+		},
+		{
+		 "id": "jermsy:wooded_tundra",
+		 "required": false
+		},
+		"minecraft:deep_frozen_ocean", "minecraft:frozen_ocean", "minecraft:frozen_river", "minecraft:ice_spikes", "minecraft:snowy_beach", "minecraft:snowy_plains"
+		],
 	"fog_end": "0.8 - max(0, min(0.35, (DAY_TIME%24000 > 23000) + (DAY_TIME%24000 < 1000) + (RAIN * 0.35) - max(0, 11 - SKY_LIGHT)))",
-	"fog_start": "12.5 + max(-0.5, min(0.5, (DAY_TIME%24000 > 23000) + (DAY_TIME%24000 < 1000) + (RAIN * 0.5)- max(0, 11 - SKY_LIGHT)*100))"
+	"fog_start": "10.75 + max(-0.5, min(0.5, (DAY_TIME%24000 > 23000) + (DAY_TIME%24000 < 1000) + (RAIN * 0.5)- max(0, 11 - SKY_LIGHT)*100))"
 }
