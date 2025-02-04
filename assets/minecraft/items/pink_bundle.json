@@ -1,0 +1,89 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:bundle/has_selected_item",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": "gui",
+          "model": {
+            "type": "minecraft:composite",
+            "models": [
+              {
+                "type": "minecraft:model",
+                "model": "minecraft:item/pink_bundle_open_back"
+              },
+              {
+                "type": "minecraft:bundle/selected_item"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "minecraft:item/pink_bundle_open_front"
+              }
+            ]
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:bundle/fullness",
+        "entries": [
+          {
+            "threshold": 1,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/pink_bundle_filled"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pink_bundle"
+        }
+      }
+    },
+    "on_false": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:bundle/fullness",
+      "entries": [
+        {
+          "threshold": 0.01,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/pink_bundle"
+          }
+        },
+        {
+          "threshold": 1,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/pink_bundle_filled"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:select",
+        "cases": [
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/pink_bundle_empty_gui"
+            },
+            "when": [
+              "gui",
+              "ground",
+              "fixed"
+            ]
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pink_bundle_empty"
+        },
+        "property": "minecraft:display_context"
+      }
+    }
+  }
+}
