@@ -1,0 +1,92 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 32],
+	"texture": "textures/entity/chicken/key_golem.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -11, 3.5],
+			"animations": [
+				{
+					"left_wing.ty": 11,
+					"right_wing.ty": 11,
+					"head.ty": 13,
+					"body.ty": 14,
+					"body.tz": 2,
+					"left_leg.ty": 17,
+					"right_leg.ty": 17
+				}
+			]
+		},
+		{
+			"part": "bill",
+			"id": "bill",
+			"invertAxis": "xy",
+			"translate": [0, -11, 4]
+		},
+		{
+			"part": "chin",
+			"id": "chin",
+			"invertAxis": "xy",
+			"translate": [0, -11, 4]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -10, 0],
+			"rotate": [-90, 0, 0],
+			"boxes": [
+				{"coordinates": [-4.5, 5, -5, 8, 8, 8], "textureOffset": [0, 0]},
+				{"coordinates": [-1.5, 13, -2, 2, 11, 2], "textureOffset": [32, 3]},
+				{"coordinates": [-4.5, 17, -2, 3, 2, 2], "textureOffset": [32, 20]},
+				{"coordinates": [-4.5, 20, -2, 3, 2, 2], "textureOffset": [32, 16]}
+			],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [4, -13, 0]
+		},
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"translate": [-4, -13, 0]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [1, -7, -1],
+			"boxes": [
+				{
+					"coordinates": [-3, 0, -2, 3, 5, 3],
+					"uvSouth": [61, 3, 64, 8],
+					"uvDown": [61, 8, 58, 11]
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-2, -7, -1],
+			"boxes": [
+				{
+					"coordinates": [0, 0, -2, 3, 5, 3],
+					"uvSouth": [61, 3, 64, 8],
+					"uvDown": [61, 8, 58, 11]
+				}
+			]
+		}
+	]
+}

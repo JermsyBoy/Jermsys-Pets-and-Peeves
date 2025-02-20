@@ -1,0 +1,22 @@
+{
+	"sounds": [
+		{
+			"name": "jermsy/entity/cluckshroom/ambient/cluckshroom_ambient_01",
+			"volume": 0.45,
+			"weight": 20,
+			"stream": "false"
+		},
+		{
+			"name": "jermsy/entity/cluckshroom/ambient/cluckshroom_ambient_02",
+			"volume": 0.45,
+			"weight": 40,
+			"stream": "false"
+		},
+		{
+			"name": "jermsy/entity/cluckshroom/ambient/cluckshroom_ambient_03",
+			"volume": 0.45,
+			"weight": 40,
+			"stream": "false"
+		}
+	]
+}

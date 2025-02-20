@@ -1,0 +1,10 @@
+{
+	"sounds": [
+		{
+			"name": "jermsy/entity/key_golem/egg/key_golem_egg_01",
+			"volume": 0.35,
+			"weight": 100,
+			"stream": "false"
+		}
+	]
+}
