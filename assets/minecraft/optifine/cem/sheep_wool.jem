@@ -1,7 +1,6 @@
 {
 	"credit": "Made with Blockbench",
 	"textureSize": [64, 32],
-	"texture": "sheep_wool.png",
 	"models": [
 		{
 			"part": "body",

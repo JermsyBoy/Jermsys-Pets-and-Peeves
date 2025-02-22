@@ -11,7 +11,7 @@
 				{"coordinates": [-5, 17, -5, 10, 24, 10], "textureOffset": [0, 0]},
 				{
 					"coordinates": [-9, 36, 0, 18, 16, 0],
-					"uvNorth": [46, 0, 64, 16]
+					"uvSouth": [46, 0, 64, 16]
 				}
 			]
 		},
