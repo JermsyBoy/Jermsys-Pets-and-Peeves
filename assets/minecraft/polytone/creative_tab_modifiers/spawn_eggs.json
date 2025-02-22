@@ -1,0 +1,65 @@
+{
+  "targets": [
+    "spawn_eggs"
+  ],
+  "additions": [
+    {
+      "items": [
+        {
+          "id": "minecraft:chicken_spawn_egg",
+          "components": {
+            "minecraft:item_name" : "{\"text\":\"Cluckshroom Spawn Egg\"}",
+            "minecraft:item_model": "jermsy:cluckshroom_spawn_egg",
+            "minecraft:entity_data": {
+              "id": "minecraft:chicken",
+              "CustomName": "Cluckshroom",
+              "CustomNameVisible": false
+            }
+          }
+        },
+        {
+          "id": "minecraft:chicken_spawn_egg",
+          "components": {
+            "minecraft:item_name" : "{\"text\":\"Potato Chicken Spawn Egg\"}",
+            "minecraft:item_model": "jermsy:potato_chicken_spawn_egg",
+            "minecraft:entity_data": {
+              "id": "minecraft:chicken",
+              "CustomName": "{\"text\":\"Potato Chicken\"}",
+              "CustomNameVisible": false
+            }
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:chicken_spawn_egg"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:horse_spawn_egg",
+          "components": {
+            "minecraft:item_name" : "{\"text\":\"Torrent Spawn Egg\"}",
+            "minecraft:item_model": "jermsy:torrent_spawn_egg",
+            "minecraft:entity_data": {
+              "id": "minecraft:horse",
+              "CustomName": "Torrent",
+              "CustomNameVisible": false
+            }
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:horse_spawn_egg"
+        ]
+      }
+    }
+  ]
+}
