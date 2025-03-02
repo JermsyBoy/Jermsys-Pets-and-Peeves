@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "jermsy:item/yellow_blue_parrot_spawn_egg"
+  }
+}

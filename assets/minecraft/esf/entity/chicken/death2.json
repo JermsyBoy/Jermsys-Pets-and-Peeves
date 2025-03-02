@@ -1,0 +1,16 @@
+{
+	"sounds": [
+		{
+			"name": "jermsy/entity/key_golem/hurt/key_golem_hurt_01",
+			"volume": 0.35,
+			"weight": 40,
+			"stream": "false"
+		},
+		{
+			"name": "jermsy/entity/key_golem/hurt/key_golem_hurt_02",
+			"volume": 0.35,
+			"weight": 60,
+			"stream": "false"
+		}
+	]
+}

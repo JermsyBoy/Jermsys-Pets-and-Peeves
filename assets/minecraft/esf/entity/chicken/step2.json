@@ -1,0 +1,16 @@
+{
+	"sounds": [
+		{
+			"name": "jermsy/entity/key_golem/step/key_golem_footsteps_01",
+			"volume": 0.45,
+			"weight": 40,
+			"stream": "false"
+		},
+		{
+			"name": "jermsy/entity/key_golem/step/key_golem_footsteps_02",
+			"volume": 0.45,
+			"weight": 60,
+			"stream": "false"
+		}
+	]
+}

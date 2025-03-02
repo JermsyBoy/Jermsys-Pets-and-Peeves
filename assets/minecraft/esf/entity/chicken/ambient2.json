@@ -1,0 +1,22 @@
+{
+	"sounds": [
+		{
+			"name": "jermsy/entity/key_golem/ambient/key_golem_ambient_01",
+			"volume": 0.35,
+			"weight": 20,
+			"stream": "false"
+		},
+		{
+			"name": "jermsy/entity/key_golem/ambient/key_golem_ambient_02",
+			"volume": 0.35,
+			"weight": 40,
+			"stream": "false"
+		},
+		{
+			"name": "jermsy/entity/key_golem/ambient/key_golem_ambient_03",
+			"volume": 0.35,
+			"weight": 40,
+			"stream": "false"
+		}
+	]
+}
