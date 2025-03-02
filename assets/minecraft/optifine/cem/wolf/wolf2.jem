@@ -1,0 +1,180 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 32],
+	"texture": "textures/entity/wolf/cooper.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [-1, -10.5, 7],
+			"animations": [
+				{
+					"body_rotation.rx": "-7.85",
+					"head_cooper.rx": "head.rx",
+					"head_cooper.ry": "head.ry",
+					"head_cooper.rz": "head.rz",
+					"leg1_cooper.rx": "leg1.rx",
+					"leg2_cooper.rx": "leg2.rx",
+					"leg3_cooper.rx": "leg3.rx",
+					"leg4_cooper.rx": "leg4.rx",
+					"tail_cooper.rx": "tail.rx"
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -10, -2],
+			"submodels": [
+				{
+					"id": "body_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 10, 2],
+					"boxes": [
+						{"coordinates": [-3, -5, -7, 6, 5, 10], "textureOffset": [0, 17]}
+					],
+					"submodels": [
+						{
+							"id": "leg1_cooper",
+							"invertAxis": "xy",
+							"translate": [-2, -4, 2.5]
+						},
+						{
+							"id": "leg2_cooper",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [2, -4, 2.5]
+						},
+						{
+							"id": "leg3_cooper",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [-2, -4, -6]
+						},
+						{
+							"id": "leg4_cooper",
+							"invertAxis": "xy",
+							"translate": [2, -4, -6]
+						},
+						{
+							"id": "tail_cooper",
+							"invertAxis": "xy",
+							"translate": [0, -1, 3],
+							"boxes": [
+								{"coordinates": [-1, -1, 0, 2, 2, 2], "textureOffset": [12, 12]}
+							]
+						},
+						{
+							"id": "head_cooper",
+							"invertAxis": "xy",
+							"translate": [0, -0.00873, -5.5],
+							"boxes": [
+								{"coordinates": [-1.5, 0.00873, -6.5, 3, 3, 3], "textureOffset": [0, 10]},
+								{"coordinates": [-2.5, 0.00873, -3.5, 5, 5, 5], "textureOffset": [0, 0]}
+							],
+							"submodels": [
+								{
+									"id": "left_ear_cooper",
+									"invertAxis": "xy",
+									"translate": [-2.25, 4.99127, 0],
+									"rotate": [0, 22.5, -22.5],
+									"boxes": [
+										{"coordinates": [-1, -4, -1.5, 1, 4, 3], "textureOffset": [20, 0]}
+									]
+								},
+								{
+									"id": "right_ear_cooper",
+									"invertAxis": "xy",
+									"mirrorTexture": "u",
+									"translate": [2.25, 4.99127, 0],
+									"rotate": [0, -22.5, 22.5],
+									"boxes": [
+										{"coordinates": [0, -4, -1.5, 1, 4, 3], "textureOffset": [20, 0]}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"body_rotation.rx": "-7.85",
+					"head_cooper.rx": "head.rx",
+					"head_cooper.ry": "head.ry",
+					"head_cooper.rz": "head.rz",
+					"tail_cooper.rx": "tail.rx",
+					"leg1.ty": "18",
+					"leg1.tz": "5",
+					"leg1.tx": "-2",
+					"leg2.ty": "18",
+					"leg2.tz": "5",
+					"leg2.tx": "2",
+					"leg3.ty": "18",
+					"leg3.tz": "-4",
+					"leg3.tx": "-2",
+					"leg4.ty": "18",
+					"leg4.tz": "-4",
+					"leg4.tx": "2"
+				}
+			]
+		},
+		{
+			"part": "mane",
+			"id": "mane",
+			"invertAxis": "xy",
+			"translate": [-1, -10, -2],
+			"animations": [
+				{
+					"mane_rotation.rx": 0
+				}
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [-2, -6, -4.5],
+			"boxes": [
+				{"coordinates": [-3, 0, 3.5, 2, 6, 2], "textureOffset": [30, 19]}
+			]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [2, -6, -4.5],
+			"boxes": [
+				{"coordinates": [1, 0, 3.5, 2, 6, 2], "textureOffset": [30, 19]}
+			]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [-2, -6, 4],
+			"boxes": [
+				{"coordinates": [-3, 0, -5, 2, 6, 2], "textureOffset": [22, 19]}
+			]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [2, -6, 4],
+			"boxes": [
+				{"coordinates": [1, 0, -5, 2, 6, 2], "textureOffset": [22, 19]}
+			]
+		},
+		{
+			"part": "tail",
+			"id": "tail",
+			"invertAxis": "xy",
+			"translate": [-1, -12, -10]
+		}
+	]
+}

@@ -60,6 +60,182 @@
           "minecraft:horse_spawn_egg"
         ]
       }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:item_name" : "{\"text\":\"Ashen Wolf Spawn Egg\"}",
+            "minecraft:item_model": "jermsy:ashen_wolf_spawn_egg",
+            "minecraft:entity_data": {
+              "id": "minecraft:wolf",
+              "variant": "ashen"
+            }
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:wolf_spawn_egg"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:item_name" : "{\"text\":\"Black Wolf Spawn Egg\"}",
+            "minecraft:item_model": "jermsy:black_wolf_spawn_egg",
+            "minecraft:entity_data": {
+              "id": "minecraft:wolf",
+              "variant": "black"
+            }
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:wolf_spawn_egg"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:item_name" : "{\"text\":\"Chestnut Wolf Spawn Egg\"}",
+            "minecraft:item_model": "jermsy:chestnut_wolf_spawn_egg",
+            "minecraft:entity_data": {
+              "id": "minecraft:wolf",
+              "variant": "chestnut"
+            }
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:wolf_spawn_egg"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:item_name" : "{\"text\":\"Rusty Wolf Spawn Egg\"}",
+            "minecraft:item_model": "jermsy:rusty_wolf_spawn_egg",
+            "minecraft:entity_data": {
+              "id": "minecraft:wolf",
+              "variant": "rusty"
+            }
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:wolf_spawn_egg"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:item_name" : "{\"text\":\"Snowy Wolf Spawn Egg\"}",
+            "minecraft:item_model": "jermsy:snowy_wolf_spawn_egg",
+            "minecraft:entity_data": {
+              "id": "minecraft:wolf",
+              "variant": "snowy"
+            }
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:wolf_spawn_egg"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:item_name" : "{\"text\":\"Spotted Wolf Spawn Egg\"}",
+            "minecraft:item_model": "jermsy:spotted_wolf_spawn_egg",
+            "minecraft:entity_data": {
+              "id": "minecraft:wolf",
+              "variant": "spotted"
+            }
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:wolf_spawn_egg"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:item_name" : "{\"text\":\"Striped Wolf Spawn Egg\"}",
+            "minecraft:item_model": "jermsy:striped_wolf_spawn_egg",
+            "minecraft:entity_data": {
+              "id": "minecraft:wolf",
+              "variant": "striped"
+            }
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:wolf_spawn_egg"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:item_name" : "{\"text\":\"Woods Wolf Spawn Egg\"}",
+            "minecraft:item_model": "jermsy:woods_wolf_spawn_egg",
+            "minecraft:entity_data": {
+              "id": "minecraft:wolf",
+              "variant": "woods"
+            }
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:wolf_spawn_egg"
+        ]
+      }
     }
   ]
 }
