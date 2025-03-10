@@ -1,0 +1,8 @@
+{
+  "colors": {
+    "day": "#89bbd3",
+    "night": "#17272e"
+  },
+  "end_multiplier": 0.35,
+  "start_multiplier": 0.0
+}
