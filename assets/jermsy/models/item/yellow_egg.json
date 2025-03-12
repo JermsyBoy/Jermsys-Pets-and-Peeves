@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "jermsy:item/duck_egg"
+    "layer0": "jermsy:item/yellow_egg"
   }
 }
