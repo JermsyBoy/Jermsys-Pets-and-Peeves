@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textureSize": [64, 64],
+	"texture": "textures/entity/sheep/sheep_sheared.png",
 	"models": [
 		{
 			"part": "body",
@@ -14,7 +15,7 @@
 					"translate": [0, 19, 2],
 					"rotate": [-90, 0, 0],
 					"boxes": [
-						{"coordinates": [-4, -6, -9, 8, 16, 8], "textureOffset": [32, 0]},
+						{"coordinates": [-4, -6, -7, 8, 16, 6], "textureOffset": [36, 16]},
 						{"coordinates": [-6, -7, -9, 12, 18, 10], "textureOffset": [0, 36]},
 						{
 							"coordinates": [-6, -7, -12, 12, 18, 3],
@@ -30,9 +31,7 @@
 					"invertAxis": "xy",
 					"translate": [0, 18, -8],
 					"boxes": [
-						{"coordinates": [-3, -6, -6, 6, 9, 6], "textureOffset": [0, 0]},
-						{"coordinates": [-3, -6, -6, 6, 8, 6], "textureOffset": [0, 15]},
-						{"coordinates": [-3, 0, -7, 6, 3, 1], "textureOffset": [12, 32]}
+						{"coordinates": [-3, -6, -6, 6, 8, 6], "textureOffset": [0, 1]}
 					],
 					"submodels": [
 						{
@@ -42,7 +41,7 @@
 							"translate": [3, 0, -4],
 							"rotate": [0, 0, -45],
 							"boxes": [
-								{"coordinates": [0, -1, -1, 4, 1, 2], "textureOffset": [0, 33]}
+								{"coordinates": [0, -1, -1, 4, 1, 2], "textureOffset": [47, 6]}
 							]
 						},
 						{
@@ -51,24 +50,30 @@
 							"translate": [-3, 0, -4],
 							"rotate": [0, 0, 45],
 							"boxes": [
-								{"coordinates": [-4, -1, -1, 4, 1, 2], "textureOffset": [0, 33]}
+								{"coordinates": [-4, -1, -1, 4, 1, 2], "textureOffset": [47, 6]}
 							]
 						}
 					]
+				},
+				{
+					"id": "leg5",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0]
+				},
+				{
+					"id": "leg6",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0]
 				}
 			],
 			"animations": [
 				{
 					"rotation.rx": 0,
+					"head2.rx": -1.575,
 					"head2.ty": -29,
 					"head2.tz": 1,
-					"head2.ry": "head.rz",
-					"head2.rx": "head.rx - 1.575",
-					"head2.rz": "-(head.ry)",
-					"leg1.ty": 14,
-					"leg2.ty": 14,
-					"leg3.ty": 14,
-					"leg4.ty": 14
+					"leg5.tz": 1,
+					"leg6.tz": 1
 				}
 			]
 		},
@@ -76,9 +81,9 @@
 			"part": "leg1",
 			"id": "leg1",
 			"invertAxis": "xy",
-			"translate": [-3, -10, -7],
+			"translate": [-3, -12, -7],
 			"boxes": [
-				{"coordinates": [1, 0, 4.5, 3, 10, 3], "textureOffset": [52, 24]}
+				{"coordinates": [1, 0, 4.5, 3, 12, 3], "textureOffset": [0, 17]}
 			],
 			"submodels": [
 				{
@@ -87,7 +92,7 @@
 					"mirrorTexture": "u",
 					"translate": [0, 0, 0],
 					"boxes": [
-						{"coordinates": [0, 6, 3.5, 5, 7, 5], "textureOffset": [32, 24]}
+						{"coordinates": [0, 6, 3.5, 5, 7, 5], "textureOffset": [12, 16]}
 					]
 				}
 			]
@@ -96,19 +101,19 @@
 			"part": "leg2",
 			"id": "leg2",
 			"invertAxis": "xy",
-			"translate": [3, -10, -7],
+			"translate": [3, -12, -7],
 			"boxes": [
-				{"coordinates": [-4, 0, 4.5, 3, 10, 3], "textureOffset": [52, 24]},
-				{"coordinates": [-5, 6, 3.5, 5, 7, 5], "textureOffset": [32, 24]}
+				{"coordinates": [-4, 0, 4.5, 3, 12, 3], "textureOffset": [0, 17]},
+				{"coordinates": [-5, 6, 3.5, 5, 7, 5], "textureOffset": [12, 16]}
 			]
 		},
 		{
 			"part": "leg3",
 			"id": "leg3",
 			"invertAxis": "xy",
-			"translate": [-3, -10, 5],
+			"translate": [-3, -12, 5],
 			"boxes": [
-				{"coordinates": [1, 0, -7, 3, 10, 3], "textureOffset": [52, 24]}
+				{"coordinates": [1, 0, -7, 3, 12, 3], "textureOffset": [0, 17]}
 			],
 			"submodels": [
 				{
@@ -117,7 +122,7 @@
 					"mirrorTexture": "u",
 					"translate": [0, 0, 0],
 					"boxes": [
-						{"coordinates": [0, 6, -8, 5, 7, 5], "textureOffset": [32, 24]}
+						{"coordinates": [0, 6, -8, 5, 7, 5], "textureOffset": [12, 16]}
 					]
 				}
 			]
@@ -126,10 +131,10 @@
 			"part": "leg4",
 			"id": "leg4",
 			"invertAxis": "xy",
-			"translate": [3, -10, 5],
+			"translate": [3, -12, 5],
 			"boxes": [
-				{"coordinates": [-4, 0, -7, 3, 10, 3], "textureOffset": [52, 24]},
-				{"coordinates": [-5, 6, -8, 5, 7, 5], "textureOffset": [32, 24]}
+				{"coordinates": [-4, 0, -7, 3, 12, 3], "textureOffset": [0, 17]},
+				{"coordinates": [-5, 6, -8, 5, 7, 5], "textureOffset": [12, 16]}
 			]
 		},
 		{
