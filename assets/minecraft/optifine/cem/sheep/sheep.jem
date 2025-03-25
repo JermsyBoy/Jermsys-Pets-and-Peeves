@@ -39,7 +39,7 @@
 							"id": "right_ear",
 							"invertAxis": "xy",
 							"mirrorTexture": "u",
-							"translate": [3, 0, -4],
+							"translate": [3, 0, -3],
 							"rotate": [0, 0, -45],
 							"boxes": [
 								{"coordinates": [0, -1, -1, 4, 1, 2], "textureOffset": [0, 33]}
@@ -48,7 +48,7 @@
 						{
 							"id": "left_ear",
 							"invertAxis": "xy",
-							"translate": [-3, 0, -4],
+							"translate": [-3, 0, -3],
 							"rotate": [0, 0, 45],
 							"boxes": [
 								{"coordinates": [-4, -1, -1, 4, 1, 2], "textureOffset": [0, 33]}
