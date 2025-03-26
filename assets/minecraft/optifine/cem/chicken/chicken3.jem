@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textureSize": [64, 32],
-	"texture": "textures/entity/chicken/chicken_baby.png",
+	"texture": "jermsy:textures/entity/chicken/chicken_baby.png",
 	"models": [
 		{
 			"part": "head",

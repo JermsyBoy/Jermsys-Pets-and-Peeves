@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textureSize": [64, 32],
-	"texture": "textures/entity/chicken/fancy_chicken.png",
+	"texture": "jermsy:textures/entity/chicken/fancy_chicken.png",
 	"models": [
 		{
 			"part": "head",
@@ -11,8 +11,6 @@
 			"boxes": [
 				{"coordinates": [-2, 11, -5.5, 4, 7, 4], "textureOffset": [48, 0]},
 				{"coordinates": [0, 16, -7.5, 0, 6, 7], "textureOffset": [1, 19]},
-				{"coordinates": [-3, 16, -5.5, 6, 3, 5], "textureOffset": [42, 11], "sizeAdd": 0.15},
-				{"coordinates": [-2, 14, -7.5, 4, 2, 2], "textureOffset": [52, 28]},
 				{"coordinates": [-1.5, 14, -7.5, 3, 2, 2], "textureOffset": [14, 0]},
 				{"coordinates": [-1, 12, -6.5, 2, 2, 2], "textureOffset": [14, 4]}
 			],
@@ -29,14 +27,14 @@
 			]
 		},
 		{
-			"part": "bill",
-			"id": "bill",
+			"part": "beak",
+			"id": "beak",
 			"invertAxis": "xy",
 			"translate": [0, -11, 4]
 		},
 		{
-			"part": "chin",
-			"id": "chin",
+			"part": "red_thing",
+			"id": "red_thing",
 			"invertAxis": "xy",
 			"translate": [0, -11, 4]
 		},
@@ -52,7 +50,7 @@
 					"coordinates": [0, -2, -1, 0, 10, 12],
 					"uvNorth": [52, 22, 52, 32],
 					"uvSouth": [64, 22, 64, 32],
-					"uvWest": [0, 0, 12, 10],
+					"uvWest": [63, 32, 51, 22],
 					"uvUp": [52, 22, 52, 10],
 					"uvDown": [52, 10, 52, 22]
 				}
@@ -89,7 +87,7 @@
 			"boxes": [
 				{
 					"coordinates": [-3, 0, -2, 3, 7, 3],
-					"uvSouth": [38, 3, 41, 10],
+					"uvSouth": [35, 3, 38, 10],
 					"uvDown": [35, 0, 32, 3]
 				}
 			]
@@ -102,7 +100,7 @@
 			"boxes": [
 				{
 					"coordinates": [0, 0, -2, 3, 7, 3],
-					"uvSouth": [38, 3, 41, 10],
+					"uvSouth": [35, 3, 38, 10],
 					"uvDown": [35, 0, 32, 3]
 				}
 			]
