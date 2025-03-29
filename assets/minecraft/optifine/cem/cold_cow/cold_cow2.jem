@@ -1,7 +1,6 @@
 {
 	"credit": "Made with Blockbench",
 	"textureSize": [128, 128],
-	"texture": "textures/entity/cow/cow_baby.png",
 	"models": [
 		{
 			"part": "head",
@@ -53,6 +52,13 @@
 					"uvWest": [20, 10, 30, 26],
 					"uvUp": [20, 10, 10, 0],
 					"uvDown": [30, 0, 20, 10]
+				},
+				{
+					"coordinates": [-6, 13, -14, 10, 16, 3],
+					"uvEast": [3, 26, 6, 42],
+					"uvWest": [3, 26, 0, 42],
+					"uvUp": [16, 29, 6, 26],
+					"uvDown": [6, 29, 16, 32]
 				}
 			],
 			"submodels": [

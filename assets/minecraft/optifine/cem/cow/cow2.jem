@@ -1,7 +1,6 @@
 {
 	"credit": "Made with Blockbench",
 	"textureSize": [128, 128],
-	"texture": "textures/entity/cow/cow_baby.png",
 	"models": [
 		{
 			"part": "head",

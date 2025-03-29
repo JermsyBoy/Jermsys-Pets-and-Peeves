@@ -12,10 +12,10 @@
 					"this.rx": 0,
 					"head2.rx": "head.rx",
 					"head2.ry": "head.ry",
-					"front_left_leg.rx": "left_front_leg.rx - 1.575",
-					"front_right_leg.rx": "right_front_leg.rx - 1.575",
-					"back_left_leg.rx": "left_hind_leg.rx - 1.575",
-					"back_right_leg.rx": "right_hind_leg.rx - 1.575"
+					"front_left_leg.rx": "leg4.rx - 1.575",
+					"front_right_leg.rx": "leg3.rx - 1.575",
+					"back_left_leg.rx": "leg2.rx - 1.575",
+					"back_right_leg.rx": "leg1.rx - 1.575"
 				}
 			]
 		},
@@ -43,6 +43,13 @@
 					"uvWest": [6, 1, 7, 7],
 					"uvUp": [1, 0, 6, 1],
 					"uvDown": [6, 0, 11, 1]
+				},
+				{
+					"coordinates": [-6.5, 8, -12, 13, 22, 3],
+					"uvEast": [3, 37, 6, 59],
+					"uvWest": [3, 37, 0, 59],
+					"uvUp": [28, 40, 15, 37],
+					"uvDown": [28, 40, 15, 43]
 				}
 			],
 			"submodels": [
@@ -249,17 +256,17 @@
 										},
 										{
 											"coordinates": [4, -2.28356, -1.0237, 3, 2, 2],
-											"uvNorth": [64, 61, 67, 63],
-											"uvSouth": [67, 61, 70, 63],
-											"uvUp": [64, 59, 67, 61],
-											"uvDown": [67, 59, 70, 61]
+											"uvNorth": [66, 61, 69, 63],
+											"uvSouth": [71, 61, 74, 63],
+											"uvUp": [66, 59, 69, 61],
+											"uvDown": [69, 59, 72, 61]
 										},
 										{
 											"coordinates": [-7, -2.28356, -1.0237, 3, 2, 2],
-											"uvNorth": [70, 61, 73, 63],
-											"uvSouth": [73, 61, 76, 63],
-											"uvUp": [70, 59, 73, 61],
-											"uvDown": [73, 59, 76, 61]
+											"uvNorth": [76, 61, 79, 63],
+											"uvSouth": [81, 61, 84, 63],
+											"uvUp": [76, 59, 79, 61],
+											"uvDown": [79, 59, 82, 61]
 										}
 									]
 								}
@@ -273,36 +280,48 @@
 					"this.rx": 0,
 					"head2.rx": "head.rx",
 					"head2.ry": "head.ry",
-					"front_left_leg.rx": "left_front_leg.rx - 1.575",
-					"front_right_leg.rx": "right_front_leg.rx - 1.575",
-					"back_left_leg.rx": "left_hind_leg.rx - 1.575",
-					"back_right_leg.rx": "right_hind_leg.rx - 1.575"
+					"front_left_leg.rx": "leg4.rx - 1.575",
+					"front_right_leg.rx": "leg3.rx - 1.575",
+					"back_left_leg.rx": "leg2.rx - 1.575",
+					"back_right_leg.rx": "leg1.rx - 1.575"
 				}
 			]
 		},
 		{
-			"part": "left_front_leg",
-			"id": "left_front_leg",
+			"part": "leg4",
+			"id": "leg4",
 			"invertAxis": "xy",
 			"translate": [-4, -12, -7]
 		},
 		{
-			"part": "right_front_leg",
-			"id": "right_front_leg",
+			"part": "leg3",
+			"id": "leg3",
 			"invertAxis": "xy",
 			"translate": [4, -12, -7]
 		},
 		{
-			"part": "left_hind_leg",
-			"id": "left_hind_leg",
+			"part": "leg2",
+			"id": "leg2",
 			"invertAxis": "xy",
 			"translate": [-4, -12, 6]
 		},
 		{
-			"part": "right_hind_leg",
-			"id": "right_hind_leg",
+			"part": "leg1",
+			"id": "leg1",
 			"invertAxis": "xy",
 			"translate": [4, -12, 6]
+		},
+		{
+			"part": "left_horn",
+			"id": "left_horn",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "right_horn",
+			"id": "right_horn",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
 		}
 	]
 }
