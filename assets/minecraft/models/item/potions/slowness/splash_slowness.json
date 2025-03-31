@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/potions/slowness/potion_slowness_overlay",
+    "layer1": "minecraft:item/potions/slowness/potion_splash_slowness"
+  }
+}

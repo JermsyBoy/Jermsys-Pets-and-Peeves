@@ -10,7 +10,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/fire_resistance"
+          "model": "minecraft:item/potions/fire_resistance/fire_resistance",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 16750848
+            }
+          ]
         }
       },
       {
@@ -19,7 +25,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/fire_resistance_long"
+          "model": "minecraft:item/potions/fire_resistance/fire_resistance",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 16750848
+            }
+          ]
         }
       },
 
@@ -30,7 +42,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/invisibility"
+          "model": "minecraft:item/potions/invisibility/invisibility",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 16185078
+            }
+          ]
         }
       },
       {
@@ -39,7 +57,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/invisibility_long"
+          "model": "minecraft:item/potions/invisibility/invisibility",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 16185078
+            }
+          ]
         }
       },
 
@@ -51,7 +75,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/night_vision"
+          "model": "minecraft:item/potions/night_vision/night_vision",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 12779366
+            }
+          ]
         }
       },
       {
@@ -60,7 +90,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/night_vision_long"
+          "model": "minecraft:item/potions/night_vision/night_vision",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 12779366
+            }
+          ]
         }
       },
 
@@ -71,7 +107,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/slow_falling"
+          "model": "minecraft:item/potions/slow_falling/slow_falling",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 15978425
+            }
+          ]
         }
       },
       {
@@ -80,7 +122,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/slow_falling_long"
+          "model": "minecraft:item/potions/slow_falling/slow_falling",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 15978425
+            }
+          ]
         }
       },
 
@@ -91,7 +139,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/weakness"
+          "model": "minecraft:item/potions/weakness/weakness",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 4738376
+            }
+          ]
         }
       },
       {
@@ -100,7 +154,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/weakness_long"
+          "model": "minecraft:item/potions/weakness/weakness",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 4738376
+            }
+          ]
         }
       },
 
@@ -111,7 +171,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/water_breathing"
+          "model": "minecraft:item/potions/water_breathing/water_breathing",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 10017472
+            }
+          ]
         }
       },
       {
@@ -120,7 +186,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/water_breathing_long"
+          "model": "minecraft:item/potions/water_breathing/water_breathing",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 10017472
+            }
+          ]
         }
       },
       {
@@ -129,7 +201,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/harming"
+          "model": "minecraft:item/potions/water_breathing/water_breathing",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 11101546
+            }
+          ]
         }
       },
       {
@@ -138,7 +216,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/harming2"
+          "model": "minecraft:item/potions/water_breathing/water_breathing",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 11101546
+            }
+          ]
         }
       },
       
@@ -149,7 +233,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/healing"
+          "model": "minecraft:item/potions/healing/healing",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 16262179
+            }
+          ]
         }
       },
       {
@@ -158,7 +248,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/healing2"
+          "model": "minecraft:item/potions/healing/healing",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 16262179
+            }
+          ]
         }
       },
       {
@@ -167,7 +263,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/jump_boost"
+          "model": "minecraft:item/potions/leaping/leaping",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 16646020
+            }
+          ]
         }
       },
       {
@@ -176,7 +278,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/jump_boost_long"
+          "model": "minecraft:item/potions/leaping/leaping",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 16646020
+            }
+          ]
         }
       },
       {
@@ -185,7 +293,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/jump_boost2"
+          "model": "minecraft:item/potions/leaping/leaping",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 16646020
+            }
+          ]
         }
       },
 
@@ -197,7 +311,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/poison"
+          "model": "minecraft:item/potions/poison/poison",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 8889187
+            }
+          ]
         }
       },
       {
@@ -206,7 +326,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/poison_long"
+          "model": "minecraft:item/potions/poison/poison",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 8889187
+            }
+          ]
         }
       },
       {
@@ -215,7 +341,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/poison2"
+          "model": "minecraft:item/potions/poison/poison",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 8889187
+            }
+          ]
         }
       },
 
@@ -227,7 +359,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/regeneration"
+          "model": "minecraft:item/potions/regeneration/regeneration",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 13458603
+            }
+          ]
         }
       },
       {
@@ -236,7 +374,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/regeneration_long"
+          "model": "minecraft:item/potions/regeneration/regeneration",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 13458603
+            }
+          ]
         }
       },
       {
@@ -245,7 +389,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/regeneration2"
+          "model": "minecraft:item/potions/regeneration/regeneration",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 13458603
+            }
+          ]
         }
       },
 
@@ -257,7 +407,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/slowness"
+          "model": "minecraft:item/potions/slowness/slowness",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 9154528
+            }
+          ]
         }
       },
       {
@@ -266,7 +422,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/slowness_long"
+          "model": "minecraft:item/potions/slowness/slowness",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 9154528
+            }
+          ]
         }
       },
       {
@@ -275,7 +437,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/slowness2"
+          "model": "minecraft:item/potions/slowness/slowness",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 9154528
+            }
+          ]
         }
       },
 
@@ -335,7 +503,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/strength"
+          "model": "minecraft:item/potions/strength/strength",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 16762624
+            }
+          ]
         }
       },
       {
@@ -344,7 +518,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/strength_long"
+          "model": "minecraft:item/potions/strength/strength",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 16762624
+            }
+          ]
         }
       },
       {
@@ -353,7 +533,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/strength2"
+          "model": "minecraft:item/potions/strength/strength",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 16762624
+            }
+          ]
         }
       },
 
@@ -365,7 +551,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/turtle_master"
+          "model": "minecraft:item/potions/turtle_master/turtle_master",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 9274854
+            }
+          ]
         }
       },
       {
@@ -374,7 +566,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/turtle_master_long"
+          "model": "minecraft:item/potions/turtle_master/turtle_master",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 9274854
+            }
+          ]
         }
       },
       {
@@ -383,7 +581,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/turtle_master2"
+          "model": "minecraft:item/potions/turtle_master/turtle_master",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 9274854
+            }
+          ]
         }
       },
 
@@ -394,7 +598,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/awkward"
+          "model": "minecraft:item/potions/awkward/awkward",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 3694022
+            }
+          ]
         }
       },
       {
@@ -403,7 +613,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/mundane"
+          "model": "minecraft:item/potions/mundane/mundane",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 3694022
+            }
+          ]
         }
       },
       {
@@ -412,7 +628,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/thick"
+          "model": "minecraft:item/potions/thick/thick",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 3694022
+            }
+          ]
         }
       },
      {
@@ -421,7 +643,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/water"
+          "model": "minecraft:item/potions/water/water",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 3694022
+            }
+          ]
         }
       },
       {
@@ -430,7 +658,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/luck"
+          "model": "minecraft:item/potions/luck/luck",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 5882118
+            }
+          ]
         }
       },
 
@@ -442,7 +676,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/weaving"
+          "model": "minecraft:item/potions/weaving/weaving",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 7891290
+            }
+          ]
         }
       },
       {
@@ -451,7 +691,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/oozing"
+          "model": "minecraft:item/potions/oozing/oozing",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 10092451
+            }
+          ]
         }
       },
       {
@@ -460,7 +706,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/infested"
+          "model": "minecraft:item/potions/infestation/infestation",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 9214860
+            }
+          ]
         }
       },
       {
@@ -469,7 +721,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/potions/wind_charged"
+          "model": "minecraft:item/potions/wind_charging/wind_charging",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": 12438015
+            }
+          ]
         }
       }
 
@@ -477,7 +735,7 @@
     ],
  "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/potions/water"
+      "model": "minecraft:item/potions/water/water"
     }
      }
 }

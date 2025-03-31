@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/potions/poison/potion_poison_overlay",
+    "layer1": "minecraft:item/potions/poison/potion_lingering_poison"
+  }
+}

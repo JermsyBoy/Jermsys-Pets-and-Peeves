@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/potions/awkward/potion_awkward_overlay",
+    "layer1": "minecraft:item/potions/awkward/potion_splash_awkward"
+  }
+}

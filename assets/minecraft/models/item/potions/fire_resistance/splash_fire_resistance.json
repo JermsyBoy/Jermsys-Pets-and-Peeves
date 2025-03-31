@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/potions/fire_resistance/potion_fire_resistance_overlay",
+    "layer1": "minecraft:item/potions/fire_resistance/potion_splash_fire_resistance"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/potions/wind_charging/potion_wind_charging_overlay",
+    "layer1": "minecraft:item/potions/wind_charging/potion_splash_wind_charging"
+  }
+}

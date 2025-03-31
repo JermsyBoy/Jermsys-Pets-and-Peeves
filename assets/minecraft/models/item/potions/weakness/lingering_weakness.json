@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/potions/weakness/potion_weakness_overlay",
+    "layer1": "minecraft:item/potions/weakness/potion_lingering_weakness"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/potions/luck/potion_luck_overlay",
+    "layer1": "minecraft:item/potions/luck/potion_luck"
+  }
+}

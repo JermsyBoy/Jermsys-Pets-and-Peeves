@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/potions/invisibility/potion_invisibility_overlay",
+    "layer1": "minecraft:item/potions/invisibility/potion_splash_invisibility"
+  }
+}

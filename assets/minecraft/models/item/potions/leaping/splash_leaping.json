@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/potions/leaping/potion_leaping_overlay",
+    "layer1": "minecraft:item/potions/leaping/potion_splash_leaping"
+  }
+}

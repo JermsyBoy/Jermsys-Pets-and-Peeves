@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/potions/weaving/potion_weaving_overlay",
+    "layer1": "minecraft:item/potions/weaving/potion_lingering_weaving"
+  }
+}

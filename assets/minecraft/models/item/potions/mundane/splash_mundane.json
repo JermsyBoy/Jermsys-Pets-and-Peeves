@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/potions/mundane/potion_mundane_overlay",
+    "layer1": "minecraft:item/potions/mundane/potion_splash_mundane"
+  }
+}
