@@ -152,6 +152,72 @@
     {
       "items": [
         {
+          "id": "minecraft:parrot_spawn_egg",
+          "components": {
+            "minecraft:item_name" : "{\"text\":\"Green Parrot Spawn Egg\"}",
+            "minecraft:item_model": "jermsy:green_parrot_spawn_egg",
+            "minecraft:entity_data": {
+              "id": "minecraft:parrot",
+              "variant": "green"
+            }
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:parrot_spawn_egg"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:parrot_spawn_egg",
+          "components": {
+            "minecraft:item_name" : "{\"text\":\"Grey Parrot Spawn Egg\"}",
+            "minecraft:item_model": "jermsy:grey_parrot_spawn_egg",
+            "minecraft:entity_data": {
+              "id": "minecraft:parrot",
+              "variant": "grey"
+            }
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:parrot_spawn_egg"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:parrot_spawn_egg",
+          "components": {
+            "minecraft:item_name" : "{\"text\":\"Yellow Blue Parrot Spawn Egg\"}",
+            "minecraft:item_model": "jermsy:yellow_blue_parrot_spawn_egg",
+            "minecraft:entity_data": {
+              "id": "minecraft:parrot",
+              "variant": "yellow_blue"
+            }
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:parrot_spawn_egg"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
           "id": "minecraft:wolf_spawn_egg",
           "components": {
             "minecraft:item_name" : "{\"text\":\"Ashen Wolf Spawn Egg\"}",
