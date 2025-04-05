@@ -45,10 +45,7 @@
           "components": {
             "minecraft:item_name" : "{\"text\":\"Snow Fox Spawn Egg\"}",
             "minecraft:item_model": "jermsy:snow_fox_spawn_egg",
-            "minecraft:entity_data": {
-              "id": "minecraft:fox",
-              "variant": "snow"
-            }
+            "minecraft:type": "snow"
           }
         }
       ],
