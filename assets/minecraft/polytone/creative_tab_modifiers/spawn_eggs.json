@@ -41,6 +41,72 @@
     {
       "items": [
         {
+          "id": "minecraft:frog_spawn_egg",
+          "components": {
+            "minecraft:item_name" : "{\"text\":\"Blue Frog Spawn Egg\"}",
+            "minecraft:item_model": "jermsy:blue_frog_spawn_egg",
+            "minecraft:entity_data": {
+              "id": "minecraft:frog",
+              "variant": "jermsy:blue"
+            }
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:frog_spawn_egg"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:frog_spawn_egg",
+          "components": {
+            "minecraft:item_name" : "{\"text\":\"Cold Frog Spawn Egg\"}",
+            "minecraft:item_model": "jermsy:cold_frog_spawn_egg",
+            "minecraft:entity_data": {
+              "id": "minecraft:frog",
+              "variant": "cold"
+            }
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:frog_spawn_egg"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:frog_spawn_egg",
+          "components": {
+            "minecraft:item_name" : "{\"text\":\"Warm Frog Spawn Egg\"}",
+            "minecraft:item_model": "jermsy:warm_frog_spawn_egg",
+            "minecraft:entity_data": {
+              "id": "minecraft:frog",
+              "variant": "warm"
+            }
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:frog_spawn_egg"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
           "id": "minecraft:horse_spawn_egg",
           "components": {
             "minecraft:item_name" : "{\"text\":\"Torrent Spawn Egg\"}",
