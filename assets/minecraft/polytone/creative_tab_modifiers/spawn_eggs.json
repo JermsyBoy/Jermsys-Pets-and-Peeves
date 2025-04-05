@@ -166,6 +166,27 @@
     {
       "items": [
         {
+          "id": "minecraft:vindicator_spawn_egg",
+          "components": {
+            "minecraft:item_name" : "{\"text\":\"Illusioner Spawn Egg\"}",
+            "minecraft:item_model": "jermsy:illusioner_spawn_egg",
+            "minecraft:entity_data": {
+              "id": "minecraft:illusioner"
+            }
+          }
+        }
+      ],
+      "before": true,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:iron_golem_spawn_egg"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
           "id": "minecraft:parrot_spawn_egg",
           "components": {
             "minecraft:item_name" : "{\"text\":\"Blue Parrot Spawn Egg\"}",
