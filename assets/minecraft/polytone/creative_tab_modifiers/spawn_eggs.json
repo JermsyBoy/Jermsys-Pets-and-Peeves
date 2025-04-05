@@ -41,6 +41,20 @@
     {
       "items": [
         {
+          "id": "minecraft:ender_dragon_spawn_egg"
+        }
+      ],
+      "before": true,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:enderman_spawn_egg"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
           "id": "minecraft:fox_spawn_egg",
           "components": {
             "minecraft:item_name" : "{\"text\":\"Snow Fox Spawn Egg\"}",
