@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/template_lily_pad",
+  "textures": {
+    "layer0": "minecraft:item/lily_pad"
+  }
+}
