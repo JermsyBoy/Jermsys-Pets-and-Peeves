@@ -6,7 +6,18 @@
 			"part": "head",
 			"id": "head",
 			"invertAxis": "xy",
-			"translate": [0, -20, 8]
+			"translate": [0, -20, 8],
+			"animations": [
+				{
+					"this.rx": 0,
+					"head2.rx": "head.rx",
+					"head2.ry": "head.ry",
+					"front_left_leg.rx": "leg4.rx - 1.575",
+					"front_right_leg.rx": "leg3.rx - 1.575",
+					"back_left_leg.rx": "leg2.rx - 1.575",
+					"back_right_leg.rx": "leg1.rx - 1.575"
+				}
+			]
 		},
 		{
 			"part": "body",
