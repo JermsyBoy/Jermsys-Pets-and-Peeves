@@ -14,17 +14,19 @@
 				{
 					"id": "left_ear2",
 					"invertAxis": "xy",
-					"translate": [-1, 4.5, -4],
+					"translate": [-0.5, 8.5, -2],
+					"rotate": [0, -12.5, 0],
 					"boxes": [
-						{"coordinates": [-1.5, 4, 2, 2, 4, 0], "textureOffset": [42, 3]}
+						{"coordinates": [-2, 0, 0, 2, 4, 0], "textureOffset": [42, 3]}
 					]
 				},
 				{
 					"id": "right_ear2",
 					"invertAxis": "xy",
-					"translate": [1, 4.5, -4],
+					"translate": [0.5, 8.5, -2],
+					"rotate": [0, 12.5, 0],
 					"boxes": [
-						{"coordinates": [-0.5, 4, 2, 2, 4, 0], "textureOffset": [38, 3]}
+						{"coordinates": [0, 0, 0, 2, 4, 0], "textureOffset": [38, 3]}
 					]
 				}
 			]
@@ -139,12 +141,6 @@
 					"head.sz": 1.65,
 					"head.ty": 12.5,
 					"head.tz": -3.5,
-					"left_ear2.rx": "left_ear.rx",
-					"left_ear2.ry": "left_ear.ry",
-					"left_ear2.rz": "left_ear.rz",
-					"right_ear2.rx": "right_ear.rx",
-					"right_ear2.ry": "right_ear.ry",
-					"right_ear2.rz": "right_ear.rz",
 					"left_arm2.rx": "left_arm.rx + 0.545",
 					"left_arm2.ry": "left_arm.ry",
 					"left_arm2.rz": "left_arm.rz",
