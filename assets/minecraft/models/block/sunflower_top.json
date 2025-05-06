@@ -5,7 +5,7 @@
 		"3": "block/sunflower_front",
 		"4": "block/sunflower_top",
 		"5": "block/sunflower_back",
-		"particle": "block/sunflower_front"
+		"particle": "block/particle/sunflower"
 	},
 	"elements": [
 		{
