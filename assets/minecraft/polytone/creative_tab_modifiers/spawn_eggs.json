@@ -8,7 +8,7 @@
         {
           "id": "minecraft:chicken_spawn_egg",
           "components": {
-            "minecraft:item_name" : "{\"text\":\"Cluckshroom Spawn Egg\"}",
+            "minecraft:item_name" : "Cluckshroom Spawn Egg",
             "minecraft:item_model": "jermsy:cluckshroom_spawn_egg",
             "minecraft:entity_data": {
               "id": "minecraft:chicken",
@@ -20,11 +20,11 @@
         {
           "id": "minecraft:chicken_spawn_egg",
           "components": {
-            "minecraft:item_name" : "{\"text\":\"Potato Chicken Spawn Egg\"}",
+            "minecraft:item_name" : "Potato Chicken Spawn Egg",
             "minecraft:item_model": "jermsy:potato_chicken_spawn_egg",
             "minecraft:entity_data": {
               "id": "minecraft:chicken",
-              "CustomName": "{\"text\":\"Potato Chicken\"}",
+              "CustomName": "Potato Chicken",
               "CustomNameVisible": false
             }
           }
@@ -57,7 +57,7 @@
         {
           "id": "minecraft:fox_spawn_egg",
           "components": {
-            "minecraft:item_name" : "{\"text\":\"Snow Fox Spawn Egg\"}",
+            "minecraft:item_name" : "Snow Fox Spawn Egg",
             "minecraft:item_model": "jermsy:snow_fox_spawn_egg",
             "minecraft:entity_data": {
               "id": "minecraft:fox",
@@ -79,7 +79,7 @@
         {
           "id": "minecraft:frog_spawn_egg",
           "components": {
-            "minecraft:item_name" : "{\"text\":\"Blue Frog Spawn Egg\"}",
+            "minecraft:item_name" : "Blue Frog Spawn Egg",
             "minecraft:item_model": "jermsy:blue_frog_spawn_egg",
             "minecraft:entity_data": {
               "id": "minecraft:frog",
@@ -101,7 +101,7 @@
         {
           "id": "minecraft:frog_spawn_egg",
           "components": {
-            "minecraft:item_name" : "{\"text\":\"Cold Frog Spawn Egg\"}",
+            "minecraft:item_name" : "Cold Frog Spawn Egg",
             "minecraft:item_model": "jermsy:cold_frog_spawn_egg",
             "minecraft:entity_data": {
               "id": "minecraft:frog",
@@ -123,7 +123,7 @@
         {
           "id": "minecraft:frog_spawn_egg",
           "components": {
-            "minecraft:item_name" : "{\"text\":\"Warm Frog Spawn Egg\"}",
+            "minecraft:item_name" : "Warm Frog Spawn Egg",
             "minecraft:item_model": "jermsy:warm_frog_spawn_egg",
             "minecraft:entity_data": {
               "id": "minecraft:frog",
@@ -145,7 +145,7 @@
         {
           "id": "minecraft:horse_spawn_egg",
           "components": {
-            "minecraft:item_name" : "{\"text\":\"Torrent Spawn Egg\"}",
+            "minecraft:item_name" : "Torrent Spawn Egg",
             "minecraft:item_model": "jermsy:torrent_spawn_egg",
             "minecraft:entity_data": {
               "id": "minecraft:horse",
@@ -168,7 +168,7 @@
         {
           "id": "minecraft:vindicator_spawn_egg",
           "components": {
-            "minecraft:item_name" : "{\"text\":\"Illusioner Spawn Egg\"}",
+            "minecraft:item_name" : "Illusioner Spawn Egg",
             "minecraft:item_model": "jermsy:illusioner_spawn_egg",
             "minecraft:entity_data": {
               "id": "minecraft:illusioner"
@@ -189,7 +189,7 @@
         {
           "id": "minecraft:parrot_spawn_egg",
           "components": {
-            "minecraft:item_name" : "{\"text\":\"Blue Parrot Spawn Egg\"}",
+            "minecraft:item_name" : "Blue Parrot Spawn Egg",
             "minecraft:item_model": "jermsy:blue_parrot_spawn_egg",
             "minecraft:entity_data": {
               "id": "minecraft:parrot",
@@ -211,7 +211,7 @@
         {
           "id": "minecraft:parrot_spawn_egg",
           "components": {
-            "minecraft:item_name" : "{\"text\":\"Green Parrot Spawn Egg\"}",
+            "minecraft:item_name" : "Green Parrot Spawn Egg",
             "minecraft:item_model": "jermsy:green_parrot_spawn_egg",
             "minecraft:entity_data": {
               "id": "minecraft:parrot",
@@ -233,7 +233,7 @@
         {
           "id": "minecraft:parrot_spawn_egg",
           "components": {
-            "minecraft:item_name" : "{\"text\":\"Grey Parrot Spawn Egg\"}",
+            "minecraft:item_name" : "Grey Parrot Spawn Egg",
             "minecraft:item_model": "jermsy:grey_parrot_spawn_egg",
             "minecraft:entity_data": {
               "id": "minecraft:parrot",
@@ -255,7 +255,7 @@
         {
           "id": "minecraft:parrot_spawn_egg",
           "components": {
-            "minecraft:item_name" : "{\"text\":\"Yellow Blue Parrot Spawn Egg\"}",
+            "minecraft:item_name" : "Yellow Blue Parrot Spawn Egg",
             "minecraft:item_model": "jermsy:yellow_blue_parrot_spawn_egg",
             "minecraft:entity_data": {
               "id": "minecraft:parrot",
@@ -291,7 +291,7 @@
         {
           "id": "minecraft:wolf_spawn_egg",
           "components": {
-            "minecraft:item_name" : "{\"text\":\"Ashen Wolf Spawn Egg\"}",
+            "minecraft:item_name" : "Ashen Wolf Spawn Egg",
             "minecraft:item_model": "jermsy:ashen_wolf_spawn_egg",
             "minecraft:entity_data": {
               "id": "minecraft:wolf",
@@ -313,7 +313,7 @@
         {
           "id": "minecraft:wolf_spawn_egg",
           "components": {
-            "minecraft:item_name" : "{\"text\":\"Black Wolf Spawn Egg\"}",
+            "minecraft:item_name" : "Black Wolf Spawn Egg",
             "minecraft:item_model": "jermsy:black_wolf_spawn_egg",
             "minecraft:entity_data": {
               "id": "minecraft:wolf",
@@ -335,7 +335,7 @@
         {
           "id": "minecraft:wolf_spawn_egg",
           "components": {
-            "minecraft:item_name" : "{\"text\":\"Chestnut Wolf Spawn Egg\"}",
+            "minecraft:item_name" : "Chestnut Wolf Spawn Egg",
             "minecraft:item_model": "jermsy:chestnut_wolf_spawn_egg",
             "minecraft:entity_data": {
               "id": "minecraft:wolf",
@@ -357,7 +357,7 @@
         {
           "id": "minecraft:wolf_spawn_egg",
           "components": {
-            "minecraft:item_name" : "{\"text\":\"Rusty Wolf Spawn Egg\"}",
+            "minecraft:item_name" : "Rusty Wolf Spawn Egg",
             "minecraft:item_model": "jermsy:rusty_wolf_spawn_egg",
             "minecraft:entity_data": {
               "id": "minecraft:wolf",
@@ -379,7 +379,7 @@
         {
           "id": "minecraft:wolf_spawn_egg",
           "components": {
-            "minecraft:item_name" : "{\"text\":\"Snowy Wolf Spawn Egg\"}",
+            "minecraft:item_name" : "Snowy Wolf Spawn Egg",
             "minecraft:item_model": "jermsy:snowy_wolf_spawn_egg",
             "minecraft:entity_data": {
               "id": "minecraft:wolf",
@@ -401,7 +401,7 @@
         {
           "id": "minecraft:wolf_spawn_egg",
           "components": {
-            "minecraft:item_name" : "{\"text\":\"Spotted Wolf Spawn Egg\"}",
+            "minecraft:item_name" : "Spotted Wolf Spawn Egg",
             "minecraft:item_model": "jermsy:spotted_wolf_spawn_egg",
             "minecraft:entity_data": {
               "id": "minecraft:wolf",
@@ -423,7 +423,7 @@
         {
           "id": "minecraft:wolf_spawn_egg",
           "components": {
-            "minecraft:item_name" : "{\"text\":\"Striped Wolf Spawn Egg\"}",
+            "minecraft:item_name" : "Striped Wolf Spawn Egg",
             "minecraft:item_model": "jermsy:striped_wolf_spawn_egg",
             "minecraft:entity_data": {
               "id": "minecraft:wolf",
@@ -445,7 +445,7 @@
         {
           "id": "minecraft:wolf_spawn_egg",
           "components": {
-            "minecraft:item_name" : "{\"text\":\"Woods Wolf Spawn Egg\"}",
+            "minecraft:item_name" : "Woods Wolf Spawn Egg",
             "minecraft:item_model": "jermsy:woods_wolf_spawn_egg",
             "minecraft:entity_data": {
               "id": "minecraft:wolf",

@@ -8,12 +8,12 @@
 			"invertAxis": "xy",
 			"translate": [0, -9.5, 2],
 			"boxes": [
-				{"coordinates": [-3.5, 5.5, -8, 7, 6, 6], "textureOffset": [0, 4]},
-				{"coordinates": [-3.5, 11.5, -7, 2, 2, 1], "textureOffset": [15, 1]},
-				{"coordinates": [1.5, 11.5, -7, 2, 2, 1], "textureOffset": [8, 1]},
-				{"coordinates": [-1.5, 5.5, -11, 3, 2, 3], "textureOffset": [6, 18]},
-				{"coordinates": [-5.5, 5.5, -7, 2, 3, 0], "textureOffset": [24, 7]},
-				{"coordinates": [3.5, 5.5, -7, 2, 3, 0], "textureOffset": [20, 7]}
+				{"coordinates": [-3.5, 5.5, -8, 7, 6, 6], "textureOffset": [0, 0]},
+				{"coordinates": [-3.5, 11.5, -7, 2, 2, 1], "textureOffset": [7, 12]},
+				{"coordinates": [1.5, 11.5, -7, 2, 2, 1], "textureOffset": [0, 12]},
+				{"coordinates": [-1.5, 5.5, -11, 3, 2, 3], "textureOffset": [20, 0]},
+				{"coordinates": [-5.5, 5.5, -7, 2, 3, 0], "textureOffset": [26, 18]},
+				{"coordinates": [3.5, 5.5, -7, 2, 3, 0], "textureOffset": [22, 18]}
 			],
 			"animations": [
 				{
@@ -44,7 +44,7 @@
 			"invertAxis": "xy",
 			"translate": [-5, -6.5, -7],
 			"boxes": [
-				{"coordinates": [1.001, 0, 6, 2, 6, 2], "textureOffset": [13, 24]}
+				{"coordinates": [1.001, 0, 6, 2, 6, 2], "textureOffset": [9, 24]}
 			]
 		},
 		{
@@ -53,7 +53,7 @@
 			"invertAxis": "xy",
 			"translate": [-1, -6.5, -7],
 			"boxes": [
-				{"coordinates": [-3.001, 0, 6, 2, 6, 2], "textureOffset": [4, 24]}
+				{"coordinates": [-3.001, 0, 6, 2, 6, 2], "textureOffset": [0, 24]}
 			]
 		},
 		{
@@ -62,7 +62,7 @@
 			"invertAxis": "xy",
 			"translate": [-5, -6.5, 0],
 			"boxes": [
-				{"coordinates": [1.001, 0, -1, 2, 6, 2], "textureOffset": [13, 24]}
+				{"coordinates": [1.001, 0, -1, 2, 6, 2], "textureOffset": [9, 16]}
 			]
 		},
 		{
@@ -71,7 +71,7 @@
 			"invertAxis": "xy",
 			"translate": [-1, -6.5, 0],
 			"boxes": [
-				{"coordinates": [-3.001, 0, -1, 2, 6, 2], "textureOffset": [4, 24]}
+				{"coordinates": [-3.001, 0, -1, 2, 6, 2], "textureOffset": [0, 16]}
 			]
 		},
 		{
