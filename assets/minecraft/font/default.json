@@ -1,0 +1,94 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "jermsy:ranks/owner.png",
+            "ascent":7,
+            "height":9,
+            "chars":[
+                "🦔"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "jermsy:ranks/city.png",
+            "ascent":7,
+            "height":9,
+            "chars":[
+                "🦡"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "jermsy:ranks/supporter.png",
+            "ascent":7,
+            "height":9,
+            "chars":[
+                "🫶"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "jermsy:ranks/mod.png",
+            "ascent":7,
+            "height":9,
+            "chars":[
+                "〰"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "jermsy:ranks/city_world.png",
+            "ascent":7,
+            "height":9,
+            "chars":[
+                "🏙"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "jermsy:ranks/plots_world.png",
+            "ascent":7,
+            "height":9,
+            "chars":[
+                "🔭"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "jermsy:ranks/survival_world.png",
+            "ascent":7,
+            "height":9,
+            "chars":[
+                "🌃"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "jermsy:ranks/lobby_world.png",
+            "ascent":7,
+            "height":9,
+            "chars":[
+                "🪃"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "jermsy:ranks/nether_world.png",
+            "ascent":7,
+            "height":9,
+            "chars":[
+                "📛"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "jermsy:ranks/end_world.png",
+            "ascent":7,
+            "height":9,
+            "chars":[
+                "🔚"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "jermsy:item/glider"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "jermsy:item/broken_glider"
+    },
+    "property": "minecraft:broken"
+  }
+}

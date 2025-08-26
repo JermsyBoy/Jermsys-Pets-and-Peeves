@@ -1,0 +1,29 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "jermsy:item/custom/weapons/katana_handheld"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-55, -90, 0],
+			"translation": [0, 14, -0.25],
+			"scale": [1.8, 1.8, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-55, 90, 0],
+			"translation": [0, 14, -0.25],
+			"scale": [1.8, 1.8, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 9.45, 3.13],
+			"scale": [1.39, 1.39, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [1.13, 9.45, 3.13],
+			"scale": [1.39, 1.39, 0.68]
+		}
+	}
+}

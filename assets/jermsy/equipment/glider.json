@@ -1,0 +1,15 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "jermsy:glider_body"
+      }
+    ],
+    "wings": [
+      {
+        "texture": "jermsy:glider",
+        "use_player_texture": false
+      }
+    ]
+  }
+}

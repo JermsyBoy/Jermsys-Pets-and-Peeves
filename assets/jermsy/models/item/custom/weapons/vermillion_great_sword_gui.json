@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "jermsy:item/custom/weapons/vermillion_great_sword_gui"
+  }
+}

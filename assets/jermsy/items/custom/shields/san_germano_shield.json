@@ -1,0 +1,15 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "jermsy:item/custom/shields/san_germano_shield"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "jermsy:item/custom/shields/san_germano_shield_blocking"
+    }
+  }
+}
+

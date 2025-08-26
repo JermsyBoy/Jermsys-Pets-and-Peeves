@@ -12,8 +12,7 @@
             "minecraft:item_model": "jermsy:cluckshroom_spawn_egg",
             "minecraft:entity_data": {
               "id": "minecraft:chicken",
-              "CustomName": "Cluckshroom",
-              "CustomNameVisible": false
+              "variant": "jermsy:cluckshroom"
             }
           }
         },

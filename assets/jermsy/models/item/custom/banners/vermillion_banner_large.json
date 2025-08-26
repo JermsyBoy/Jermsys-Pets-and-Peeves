@@ -1,0 +1,71 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "jermsy:custom/banners/vermillion_banner_large",
+		"particle": "jermsy:custom/banners/vermillion_banner_large"
+	},
+	"elements": [
+		{
+			"from": [-8, -16, 9],
+			"to": [24, 30.8, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 35, 9]},
+			"faces": {
+				"north": {"uv": [0, 0.25, 4, 10], "texture": "#0"},
+				"south": {"uv": [4, 0.25, 0, 10], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 0], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-8, 30.8, 8],
+			"to": [24, 32, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 12, 9]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 0.25], "texture": "#0"},
+				"east": {"uv": [4, 0, 4.25, 0.25], "texture": "#0"},
+				"south": {"uv": [0, 0, 4, 0.25], "texture": "#0"},
+				"west": {"uv": [4, 0, 4.25, 0.25], "texture": "#0"},
+				"up": {"uv": [0, 0, 4, 0.25], "texture": "#0"},
+				"down": {"uv": [0, 0, 4, 0.25], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0, 1.5],
+			"scale": [0.375, 0.63, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 0, 1.5],
+			"scale": [0.375, 0.63, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 119, 0],
+			"translation": [0, -0.5, 0],
+			"scale": [0.4, 0.63, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 119, 0],
+			"translation": [0, -0.5, 0],
+			"scale": [0.4, 0.63, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.43, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 145, 0],
+			"translation": [-0.25, 0, 0],
+			"scale": [0.19, 0.4, 0.19]
+		},
+		"head": {
+			"scale": [1, 1.58, 1]
+		},
+		"fixed": {
+			"translation": [0, -64, -4],
+			"scale": [2, 3.33297, 2]
+		}
+	}
+}
