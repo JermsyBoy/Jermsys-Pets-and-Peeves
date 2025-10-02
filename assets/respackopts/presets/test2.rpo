@@ -1,0 +1,7 @@
+{
+    Bushy_Leaves: false,
+    Custom_Candles: false,
+    Custom_Mobs: true,
+    Custom_Water: true,
+    Remove_Painting_Back_Texture: false
+}
