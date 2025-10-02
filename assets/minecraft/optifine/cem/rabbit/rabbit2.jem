@@ -134,7 +134,7 @@
 					"head.sx": 1.65,
 					"head.sy": 1.65,
 					"head.sz": 1.65,
-					"head.ty": 12.5,
+					"head.ty": -12.5,
 					"head.tz": -3.5,
 					"left_arm2.rx": "left_arm.rx + 0.545",
 					"left_arm2.ry": "left_arm.ry",
