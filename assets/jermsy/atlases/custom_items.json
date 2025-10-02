@@ -1,0 +1,9 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:directory",
+      "prefix": "jermsy:custom",
+      "source": "jermsy:custom"
+    }
+  ]
+}

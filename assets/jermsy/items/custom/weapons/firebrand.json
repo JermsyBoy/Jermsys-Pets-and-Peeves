@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "jermsy:item/custom/weapons/firebrand_gui"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "jermsy:item/custom/weapons/firebrand_handheld"
+    },
+    "property": "minecraft:display_context"
+  }
+}

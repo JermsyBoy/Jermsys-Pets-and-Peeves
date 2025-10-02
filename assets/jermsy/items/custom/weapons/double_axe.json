@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "jermsy:item/custom/weapons/double_axe_gui"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "jermsy:item/custom/weapons/double_axe_handheld"
+    },
+    "property": "minecraft:display_context"
+  }
+}

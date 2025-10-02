@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "jermsy:item/custom/banners/vermillion_banner_large"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "jermsy:item/custom/banners/vermillion_banner_large"
+    },
+    "property": "minecraft:display_context"
+  }
+}

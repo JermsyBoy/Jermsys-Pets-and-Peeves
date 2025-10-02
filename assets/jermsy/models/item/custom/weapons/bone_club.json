@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "jermsy:item/custom/weapons/bone_club"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 11.75, -0.75],
+			"scale": [2, 2, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 11.75, -0.75],
+			"scale": [2, 2, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [3.13, 6.45, 0.88],
+			"scale": [1.48, 1.48, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [3.13, 6.45, 0.88],
+			"scale": [1.48, 1.48, 1]
+		},
+		"ground": {
+			"translation": [0, 2.5, 0],
+			"scale": [1, 1, 0.5]
+		},
+		"gui": {
+			"translation": [-8, 8, 0],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [-1.5, 1.5, 0],
+			"scale": [1.45, 1.45, 1]
+		}
+	}
+}
