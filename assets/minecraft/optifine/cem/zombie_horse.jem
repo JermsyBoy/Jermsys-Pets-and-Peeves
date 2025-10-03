@@ -26,7 +26,7 @@
 			"invertAxis": "xy",
 			"translate": [0, -23, 9.01],
 			"boxes": [
-				{"coordinates": [-2.55, 33, -5.01, 2, 3, 1], "textureOffset": [19, 16]}
+				{"coordinates": [-2.55, 33, -5.06, 2, 3, 1], "textureOffset": [19, 16]}
 			]
 		},
 		{
@@ -35,7 +35,7 @@
 			"invertAxis": "xy",
 			"translate": [0, -23, 9.01],
 			"boxes": [
-				{"coordinates": [0.55, 33, -5.01, 2, 3, 1], "textureOffset": [19, 16]}
+				{"coordinates": [0.55, 33, -5.06, 2, 3, 1], "textureOffset": [19, 16]}
 			]
 		},
 		{
@@ -53,7 +53,7 @@
 			"invertAxis": "xy",
 			"translate": [0, -22, 9.01],
 			"boxes": [
-				{"coordinates": [-1, 17, -3.9, 2, 16, 2], "textureOffset": [56, 36]}
+				{"coordinates": [-1, 17, -4, 2, 16, 2], "textureOffset": [56, 36]}
 			]
 		},
 		{
