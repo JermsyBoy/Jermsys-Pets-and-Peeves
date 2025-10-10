@@ -1,0 +1,12 @@
+{
+    id: "VFX",
+    version: 9,
+    capabilities: ["FileFilter", "DirFilter"],
+    conf: {
+        Bushy_Leaves: true,
+        Custom_Candles: true,
+        Custom_Mobs: true,
+        Custom_Water: true,
+        Remove_Painting_Back_Texture: true
+    }
+}

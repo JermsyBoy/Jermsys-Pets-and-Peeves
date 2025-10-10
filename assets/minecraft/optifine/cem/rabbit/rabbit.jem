@@ -64,11 +64,6 @@
 					],
 					"submodels": [
 						{
-							"id": "head2",
-							"invertAxis": "xy",
-							"translate": [0, 0.5, -8]
-						},
-						{
 							"id": "left_arm2",
 							"invertAxis": "xy",
 							"translate": [-2, -0.175, -7.025],
