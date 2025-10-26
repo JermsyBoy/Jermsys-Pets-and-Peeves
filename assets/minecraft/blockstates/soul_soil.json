@@ -1,0 +1,8 @@
+{
+  "variants": {
+      "": [
+      { "model": "block/soul_soil", "weight": 60 },
+      { "model": "block/soul_soil_1", "weight": 40 }
+    ]
+  }
+}
