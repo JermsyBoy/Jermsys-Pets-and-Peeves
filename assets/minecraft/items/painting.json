@@ -1,0 +1,417 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:painting/variant",
+    "fallback": {
+    	"type": "minecraft:model",
+    	"model": "minecraft:item/painting"
+  			},
+    "cases":
+	[
+		{
+	  "when": "alban",
+	  "model": {
+		"type": "minecraft:model",
+		"model": "minecraft:item/paintings/painting_alban"
+			}
+		},
+		{
+	  "when": "aztec",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_aztec"
+			}
+		},
+		{
+	  "when": "aztec2",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_aztec2"
+			}
+		},
+		{
+	  "when": "bomb",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_bomb"
+			}
+		},
+		{
+	  "when": "burning_skull",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_burning_skull"
+			}
+		},
+		{
+	  "when": "bust",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_bust"
+			}
+		},
+		{
+	  "when": "courbet",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_courbet"
+			}
+		},
+		{
+	  "when": "creebet",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_creebet"
+			}
+		},
+		{
+	  "when": "donkey_kong",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_donkey_kong"
+			}
+		},
+		{
+	  "when": "earth",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_earth"
+			}
+		},
+		{
+	  "when": "fighters",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_fighters"
+			}
+		},
+		{
+	  "when": "fire",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_fire"
+			}
+		},
+		{
+	  "when": "graham",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_graham"
+			}
+		},
+		{
+	  "when": "kebab",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_kebab"
+			}
+		},
+		{
+	  "when": "match",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_match"
+			}
+		},
+		{
+	  "when": "pigscene",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_pigscene"
+			}
+		},
+		{
+	  "when": "plant",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_plant"
+			}
+		},
+		{
+	  "when": "pointer",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_pointer"
+			}
+		},
+		{
+	  "when": "pool",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_pool"
+			}
+		},
+		{
+	  "when": "sea",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_sea"
+			}
+		},
+		{
+	  "when": "skeleton",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_skeleton"
+			}
+		},
+		{
+	  "when": "skull_and_roses",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_skull_and_roses"
+			}
+		},
+		{
+	  "when": "stage",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_stage"
+			}
+		},
+		{
+	  "when": "sunset",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_sunset"
+			}
+		},
+		{
+	  "when": "void",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_void"
+			}
+		},
+		{
+	  "when": "wanderer",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_wanderer"
+			}
+		},
+		{
+	  "when": "wasteland",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_wasteland"
+			}
+		},
+		{
+	  "when": "water",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_water"
+			}
+		},
+		{
+	  "when": "wind",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_wind"
+			}
+		},
+		{
+	  "when": "wither",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_wither"
+			}
+		},
+
+
+
+
+		{
+	  "when": "backyard",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_backyard"
+			}
+		},
+		{
+	  "when": "baroque",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_baroque"
+			}
+		},
+		{
+	  "when": "bouquet",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_bouquet"
+			}
+		},
+		{
+	  "when": "cavebird",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_cavebird"
+			}
+		},
+		{
+	  "when": "changing",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_changing"
+			}
+		},
+		{
+	  "when": "cotan",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_cotan"
+			}
+		},
+		{
+	  "when": "endboss",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_endboss"
+			}
+		},
+		{
+	  "when": "fern",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_fern"
+			}
+		},
+		{
+	  "when": "finding",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_finding"
+			}
+		},
+		{
+	  "when": "humble",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_humble"
+			}
+		},
+		{
+	  "when": "lowmist",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_lowmist"
+			}
+		},
+		{
+	  "when": "meditative",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_meditative"
+			}
+		},
+		{
+	  "when": "orb",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_orb"
+			}
+		},
+		{
+	  "when": "owlemons",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_owlemons"
+			}
+		},
+		{
+	  "when": "passage",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_passage"
+			}
+		},
+		{
+	  "when": "pond",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_pond"
+			}
+		},
+		{
+	  "when": "prairie_ride",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_prairie_ride"
+			}
+		},
+		{
+	  "when": "sunflowers",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_sunflowers"
+			}
+		},
+		{
+	  "when": "tides",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_tides"
+			}
+		},
+		{
+	  "when": "unpacked",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_unpacked"
+			}
+		},
+		{
+	  "when": "dennis",
+	  "model": {
+		"type": "model",
+		"model": "item/paintings/painting_dennis"
+			}
+		},
+		{
+	  "when": "jermsy:cookware_medium_1",
+	  "model": {
+		"type": "model",
+		"model": "jermsy:item/paintings/painting_cookware_medium_1"
+			}
+		},
+		{
+	  "when": "jermsy:cookware_medium_2",
+	  "model": {
+		"type": "model",
+		"model": "jermsy:item/paintings/painting_cookware_medium_2"
+			}
+		},
+		{
+	  "when": "jermsy:cookware_small_1",
+	  "model": {
+		"type": "model",
+		"model": "jermsy:item/paintings/painting_cookware_small_1"
+			}
+		},
+		{
+	  "when": "jermsy:firefly_isle_1",
+	  "model": {
+		"type": "model",
+		"model": "jermsy:item/paintings/painting_firefly_isle_1"
+			}
+		},
+		{
+	  "when": "jermsy:mirror_1",
+	  "model": {
+		"type": "model",
+		"model": "jermsy:item/paintings/painting_mirror_1"
+			}
+		},
+		{
+	  "when": "jermsy:white_falls_1",
+	  "model": {
+		"type": "model",
+		"model": "jermsy:item/paintings/painting_white_falls_1"
+			}
+		}
+	]
+   }
+}
