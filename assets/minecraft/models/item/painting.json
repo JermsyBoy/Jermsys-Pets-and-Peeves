@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/painting_item_template",
   "textures": {
-    "layer0": "minecraft:item/paintings/painting_wind"
+    "layer0": "minecraft:item/painting"
   }
 }
