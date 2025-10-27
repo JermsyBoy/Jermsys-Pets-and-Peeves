@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "minecraft:item/painting_item_template",
   "textures": {
     "layer0": "minecraft:item/paintings/painting_earth"
   }
