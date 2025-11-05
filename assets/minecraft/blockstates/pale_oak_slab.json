@@ -1,0 +1,15 @@
+{
+    "variants": {
+        "type=bottom": [
+			{ "model": "block/pale_oak_slab" }
+		],
+        "type=top": [
+			{ "model": "block/pale_oak_slab_top" }
+		],	
+        "type=double": [
+			{ "model": "block/pale_oak_double_slab" },
+			{ "model": "block/pale_oak_double_slab_1" },
+			{ "model": "block/pale_oak_double_slab_2" }
+		]
+    }
+}

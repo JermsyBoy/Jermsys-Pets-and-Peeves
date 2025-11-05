@@ -1,0 +1,15 @@
+{
+    "variants": {
+        "type=bottom": [
+			{ "model": "block/birch_slab" }
+		],
+        "type=top": [
+			{ "model": "block/birch_slab_top" }
+		],	
+        "type=double": [
+			{ "model": "block/birch_double_slab" },
+			{ "model": "block/birch_double_slab_1" },
+			{ "model": "block/birch_double_slab_2" }
+		]
+    }
+}

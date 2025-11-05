@@ -1,0 +1,15 @@
+{
+    "variants": {
+        "type=bottom": [
+			{ "model": "block/crimson_slab" }
+		],
+        "type=top": [
+			{ "model": "block/crimson_slab_top" }
+		],	
+        "type=double": [
+			{ "model": "block/crimson_double_slab" },
+			{ "model": "block/crimson_double_slab_1" },
+			{ "model": "block/crimson_double_slab_2" }
+		]
+    }
+}
