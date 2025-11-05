@@ -1,0 +1,15 @@
+{
+    "variants": {
+        "type=bottom": [
+			{ "model": "block/mangrove_slab" }
+		],
+        "type=top": [
+			{ "model": "block/mangrove_slab_top" }
+		],	
+        "type=double": [
+			{ "model": "block/mangrove_double_slab" },
+			{ "model": "block/mangrove_double_slab_1" },
+			{ "model": "block/mangrove_double_slab_2" }
+		]
+    }
+}
